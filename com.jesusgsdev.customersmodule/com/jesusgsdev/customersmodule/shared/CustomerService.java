@@ -1,4 +1,5 @@
 package com.jesusgsdev.customersmodule.shared;
+
 import com.jesusgsdev.customersmodule.DummyCustomerData;
 
 import java.util.stream.Stream;

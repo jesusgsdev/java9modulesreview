@@ -3,3 +3,4 @@ module com.jesusgsdev.reportingmodule {
 
     requires com.jesusgsdev.customersmodule;
 }
+
