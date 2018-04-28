@@ -4,5 +4,3 @@ module com.jesusgsdev.customersmodule {
 
     exports com.jesusgsdev.customersmodule.shared;
 }
-
-

@@ -3,5 +3,3 @@ module com.jesusgsdev.booksmodule {
 
     exports com.jesusgsdev.booksmodule.shared;
 }
-
-
