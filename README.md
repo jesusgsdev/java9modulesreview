@@ -45,8 +45,7 @@ module com.jesusgsdev.customersmodule {
 
 ### Reporting Module
 - I created a Main class so you can see how we can generate reporting using others modules.
-- This module will import/require the Customers Module to work. Due to Customers Module already
-imports/requires Books Module is not necessary to import/require it too.
+- This module will import/require the Customers and Books Module to work.
  
 The module-info.java file looks like:
 ```
@@ -54,6 +53,7 @@ module com.jesusgsdev.reportingmodule {
     requires java.base;
 
     requires com.jesusgsdev.customersmodule;
+    requires com.jesusgsdev.booksmodule;
 }
 ```
 
